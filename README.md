@@ -16,9 +16,9 @@ A Python utility for converting PDF and DOCX documents to Markdown format using 
 ```
 pdf_converter/
 ├── README.md                           # This file
-├── pdf_to_md2.py                       # Main conversion utilities (refactored)
-├── pdf_to_md.py                        # Alternative conversion script
-├── pdf_to_md3.py                       # Additional conversion utilities
+├── pdf_to_md2.py                       # Main conversion utilities (based on IBM docling)
+├── pdf_to_md.py                        # Simple alternative conversion script (based on MS markitdown)
+├── pdf_to_md3.py                       # Resource-intensive additional conversion script (based on  marker-pdf)
 └── data/
     ├── sample A101-2017 (90 pages).pdf # Sample AIA contract document
     ├── sample a101-2017_exhibit_A.pdf  # Sample contract exhibit
